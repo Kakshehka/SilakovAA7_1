@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-
 #include <windows.h>
 #include <fstream>
 #include <string>
@@ -54,10 +53,6 @@ void vivodKS(const KS& K)
 
 void sohranenie(const Pipe& N, const KS& K)
 {
-	string S;
-	S = N.Name + " " + to_string(N.Length) + " " + to_string(N.Diameter) + " " + to_string(N.Repairing) + "\n";
-	string SS;
-	SS = K.Name + " " + to_string(K.NWorkshops) + " " + to_string(K.WorkingWorkshops) + " " + to_string(K.Efficiency) + "\n";
 	ofstream f;
 	f.open("save.txt", ios::out);
 	if (f.is_open())

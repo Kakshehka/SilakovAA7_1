@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1b57447c-ff6f-4999-bac6-7068bd60ce87}</ProjectGuid>
-    <RootNamespace>lab1</RootNamespace>
+    <ProjectGuid>{d774936a-e254-4a07-9665-57af90cb83ab}</ProjectGuid>
+    <RootNamespace>dzSILAKOV</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,14 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CKS.cpp" />
-    <ClCompile Include="CPipeline.cpp" />
-    <ClCompile Include="lab1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="HKS.h" />
-    <ClInclude Include="HPipe.h" />
-    <ClInclude Include="Proverka.h" />
+    <ClCompile Include="dzSILAKOV.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
